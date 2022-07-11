@@ -8,3 +8,12 @@ for(let i = 0; i < packingList.length; i++){
 // for(let items of packingList){
 //   console.log(items);
 // }
+
+console.log("Kitchen stuff to pack:");
+
+let i = 0;
+
+while(i < packingList.length){
+  console.log(packingList[i]);
+  i++;
+}
